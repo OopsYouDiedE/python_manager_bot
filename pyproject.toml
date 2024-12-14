@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "repl-nix-multisim-discord"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "repl_nix_multisim_discord"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+disnake = "^2.9.2"
+openai = "^1.40.2"
+aiofiles = "^24.1.0"
+discord-py = "^2.4.0"
+langchain-community = "^0.2.12"
+langchain-core = "^0.2.32"
+langchain = "^0.2.14"
+langchain-openai = "^0.1.22"
+loguru = "^0.7.2"
+pytz = "^2024.2"
+mss = "^10.0.0"
